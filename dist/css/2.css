@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'interstateregular';
+  src: url("//sec-citi.bridgetrack.com/fonts/interstate-regular.woff") format("woff"), url("//sec-citi.bridgetrack.com/fonts/interstate-regular.ttf") format("truetype"), url("//sec-citi.bridgetrack.com/fonts/interstate-regular.svg#interstateregular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'interstate-bold';
+  src: url("//sec-citi.bridgetrack.com/fonts/interstate-bold.woff") format("woff"), url("//sec-citi.bridgetrack.com/fonts/interstate-bold.ttf") format("truetype"), url("//sec-citi.bridgetrack.com/fonts/interstate-bold.svg#interstate-bold") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'interstate-light';
+  src: url("//sec-citi.bridgetrack.com/fonts/interstate-light.woff") format("woff"), url("//sec-citi.bridgetrack.com/fonts/interstate-light.ttf") format("truetype"), url("//sec-citi.bridgetrack.com/fonts/interstate-light.svg#interstate-light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+.font_regular {
+  font-family: 'interstateregular';
+  font-weight: 300; }
+
+.font_bold {
+  font-family: "interstate-bold";
+  font-weight: 300; }
+
+.font_light, .modal-overlay .dialog-box .dialog-title,
+.speedbump-overlay .dialog-box .dialog-title {
+  font-family: "interstate-light";
+  font-weight: 300; }
+
+.modal-overlay,
+.speedbump-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+  overflow-y: auto; }
+  .modal-overlay .dialog-box,
+  .speedbump-overlay .dialog-box {
+    max-width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 40px 30px;
+    background: #ffffff; }
+    .modal-overlay .dialog-box .dialog-title,
+    .speedbump-overlay .dialog-box .dialog-title {
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 50px;
+      letter-spacing: -0.02em;
+      padding: 0;
+      margin: 0; }
+    .modal-overlay .dialog-box .continue,
+    .speedbump-overlay .dialog-box .continue {
+      margin-right: 0; }
+    .modal-overlay .dialog-box .close-dialog,
+    .speedbump-overlay .dialog-box .close-dialog {
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 26px;
+      height: 26px;
+      font-size: 24px;
+      line-height: 23.5px;
+      text-align: center;
+      border: none;
+      outline: none;
+      color: #666666;
+      background-color: #ffffff;
+      padding: 0;
+      border-radius: 50%; }
+      .modal-overlay .dialog-box .close-dialog:focus,
+      .speedbump-overlay .dialog-box .close-dialog:focus {
+        color: #ffffff;
+        background-color: #666666; }
+
+html.dialog-no-scrolling,
+body.dialog-no-scrolling {
+  overflow: hidden; }
+
+html.dialog-no-scrolling-iOS,
+body.dialog-no-scrolling-iOS {
+  overflow: hidden;
+  position: fixed;
+  width: 100vw; }
+
+
+/*# sourceMappingURL=2.css.map*/
